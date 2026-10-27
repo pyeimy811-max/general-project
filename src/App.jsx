@@ -2,6 +2,11 @@ import { useTextos } from "./hooks/useTextos.js";
 import Navbar from "./components/Navbar";
 import './App.css'
 import { useEffect, useState } from "react";
+import Ejercicio1 from './components/ejercicio1.jsx';
+import Ejercicio3 from './components/ejercicio3.jsx';
+import Ejercicio5 from './components/ejercicio5.jsx';
+import Ejercicio7 from "./components/ejercicio7.jsx";
+import Ejercicio9 from "./components/ejercicio9.jsx";
 
 function leerSeccion(){
     return window.location.hash.slice(1) || "inicio";
@@ -52,7 +57,7 @@ function App() {
     return (
         <>
             <Navbar
-             {...datos} 
+            {...datos} 
             idioma={idioma} 
             cambiarIdioma={setIdioma} 
             activo={activo}
@@ -60,6 +65,11 @@ function App() {
             texto={textoGrande}
             alternarTexto={()=> setTextoGrande((valor) => !valor)}
             />
+            <div><Ejercicio1 /></div>
+            <div><Ejercicio3 /></div>
+            <div><Ejercicio5 /></div>
+            <div><Ejercicio7 /></div>
+            <div><Ejercicio9/></div>
         </>
     );
 }
