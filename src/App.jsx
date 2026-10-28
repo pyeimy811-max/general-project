@@ -3,10 +3,15 @@ import Navbar from "./components/Navbar";
 import './App.css'
 import { useEffect, useState } from "react";
 import Ejercicio1 from './components/ejercicio1.jsx';
+import Ejercicio2 from "./components/ejercicio2.jsx";
 import Ejercicio3 from './components/ejercicio3.jsx';
+import Ejercicio4 from './components/ejercicio4.jsx';
 import Ejercicio5 from './components/ejercicio5.jsx';
+import Ejercicio6 from './components/ejercicio6.jsx';
 import Ejercicio7 from "./components/ejercicio7.jsx";
+import Ejercicio8 from "./components/ejercicio8.jsx";
 import Ejercicio9 from "./components/ejercicio9.jsx";
+import Ejercicio10 from "./components/ejercicio10.jsx";
 
 function leerSeccion(){
     return window.location.hash.slice(1) || "inicio";
@@ -66,10 +71,15 @@ function App() {
             alternarTexto={()=> setTextoGrande((valor) => !valor)}
             />
             <div><Ejercicio1 /></div>
+            <div><Ejercicio2 /></div>
             <div><Ejercicio3 /></div>
+            <div><Ejercicio4 /></div>
             <div><Ejercicio5 /></div>
+            <div><Ejercicio6 /></div>
             <div><Ejercicio7 /></div>
+            <div><Ejercicio8 /></div>
             <div><Ejercicio9/></div>
+            <div><Ejercicio10/></div>
         </>
     );
 }
