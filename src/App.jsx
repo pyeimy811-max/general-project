@@ -1,4 +1,4 @@
-import { useTextos } from "./hooks/useTextos.js";
+/* import { useTextos } from "./hooks/useTextos.js";
 import Navbar from "./components/Navbar";
 import './App.css'
 import { useEffect, useState } from "react";
@@ -84,4 +84,22 @@ function App() {
     );
 }
 
-export default App;
+export default App; */
+
+import React from 'react'
+
+const App = () => {
+  return (
+    <div>
+        <main className="pagina">
+            <header className="pagina-encabezado"> 
+                <h1>Taquilla</h1>
+                <p>crea tu cuenta o ingresa para comprar tu boleta</p>
+            </header>
+        </main>
+        <div className="Formulario"></div>
+    </div>
+  )
+}
+
+export default App
