@@ -92,7 +92,7 @@ const App = () => {
   return (
     <div>
         <main className="pagina">
-            <header className="pagina-encabezado"> 
+            <header className="pagina-encabezado">
                 <h1>Taquilla</h1>
                 <p>crea tu cuenta o ingresa para comprar tu boleta</p>
             </header>
