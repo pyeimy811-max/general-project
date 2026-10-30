@@ -16,7 +16,7 @@
     --color-foco: #7c3aed;
     --radio: 0.5rem;
 
-    font-family: "Instrument+Sans", system-ui, apple-system, "Segoe UI", sans-serif;
+    font-family: "Instrument Sans", system-ui, apple-system, "Segoe UI", sans-serif;
     line-height: 1.5;
     color: var(--color-texto);
     background: var(--color-fondo);
